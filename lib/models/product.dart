@@ -11,9 +11,12 @@ class Product {
 List<Product> products = [
   Product(
       id: 1,
-      price: 50.0,
+      price: 500.0,
       title: 'Motion High Back Chair',
-      description: 'Fabric, Milan Red',
+      description:
+          '''The 360° swivel along with Knee Tilt Synchro mechanism with three different tilt positions, supports healthy body movements and gives great back support.
+
+The back is made up of injection moulded glass filled nylon & upholstered using mesh fabric with high tenacity yarn giving the perfect balance between form, functionality and comfort.''',
       image: 'assets/images/temp1.png'),
   Product(
       id: 2,
